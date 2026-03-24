@@ -29,9 +29,22 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Quick risks & dependencies:
 - Proposed team / roles:
 
+## Persona Identification
+Not every project requires every persona. Use the prompts below during initiation to identify which supporting roles are needed.
+
+| Persona | Include when… |
+|---|---|
+| **UX Designer** | The project has a user-facing interface or changes to existing user flows |
+| **Technical Writer** | The project introduces new APIs, workflows, or user-facing features requiring documentation |
+| **Customer Support Liaison** | Customer impact is significant or known support issues are driving the work |
+| **Data Analyst** | The project requires defined success metrics, instrumentation, or outcome measurement |
+
+Add identified personas to the **Proposed team / roles** field in the Project One-pager and ensure they are included in stakeholder alignment activities.
+
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
 - [ ] Sponsor / Stakeholder alignment (email or meeting)
+- [ ] Supporting personas identified based on project scope (see Persona Identification above)
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
