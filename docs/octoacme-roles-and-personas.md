@@ -191,6 +191,134 @@ Data Analysts define, track, and interpret the metrics that measure project and 
 
 ---
 
+## Security Lead
+
+### Role Summary
+Security Leads own the security posture of the project. They ensure that security requirements are identified early, that features are reviewed for potential vulnerabilities, and that the team has a clear plan for incident response. They act as the bridge between engineering practices and organizational security standards.
+
+### Responsibilities
+- Define and communicate security requirements during initiation and planning
+- Review feature designs and implementations for security risks
+- Conduct or coordinate security reviews, threat modeling, and penetration testing
+- Maintain the security risk log and escalate critical findings
+- Lead incident response planning and post-incident reviews
+- Ensure compliance with applicable security frameworks (e.g., SOC 2, ISO 27001)
+
+### Goals
+- Prevent security vulnerabilities from reaching production
+- Establish a security-first culture within the delivery team
+- Minimize the blast radius and recovery time of any security incident
+
+### Typical Communication
+- Security review sessions at design and pre-release checkpoints
+- Risk register updates flagging security-specific items
+- Incident response plans and post-mortems shared with leadership
+
+### Interactions with Existing Roles
+- **Developers**: Advise on secure coding practices and review pull requests for security impact
+- **Product Managers**: Identify security implications of new feature proposals and roadmap items
+- **Project Managers**: Escalate security risks for inclusion in the project risk register and timeline
+- **Legal/Compliance Advisor**: Align on regulatory security requirements and coordinate compliance reviews
+- **Automation Engineer**: Define security scanning and compliance checks to integrate into CI/CD pipelines
+
+---
+
+## Change Manager
+
+### Role Summary
+Change Managers coordinate the approval, communication, and documentation of process or technical changes that affect users, other teams, or downstream systems. They ensure that changes follow established control policies and that all stakeholders are informed and aligned before changes are implemented.
+
+### Responsibilities
+- Maintain the change log and enforce change control policies
+- Facilitate change advisory board (CAB) meetings when required
+- Assess the impact and risk of proposed changes on users and dependent systems
+- Coordinate rollback plans with Developers and Project Managers
+- Communicate upcoming changes to affected stakeholders in advance
+- Track and close out change records after successful implementation
+
+### Goals
+- Ensure all significant changes are approved, documented, and communicated
+- Minimize disruption to users and dependent teams from unplanned or poorly communicated changes
+- Build trust with stakeholders through predictable and transparent change practices
+
+### Typical Communication
+- Change request submissions and approvals via the change management system
+- Pre-change notifications to affected stakeholders
+- Post-change implementation reports and closure notices
+
+### Interactions with Existing Roles
+- **Project Managers**: Align on scheduling, impact assessments, and escalation paths for changes
+- **Developers**: Coordinate release and deployment plans to meet change control requirements
+- **Customer Support Liaison**: Brief support teams on upcoming changes and potential customer impact
+- **Security Lead**: Review changes for security implications before approval
+- **Legal/Compliance Advisor**: Confirm that changes meet regulatory or contractual obligations
+
+---
+
+## Legal/Compliance Advisor
+
+### Role Summary
+Legal/Compliance Advisors ensure that project activities, product changes, and team processes comply with applicable legal, regulatory, and contractual requirements. They proactively identify risk areas and provide guidance to reduce the organization's legal exposure.
+
+### Responsibilities
+- Review feature proposals, contracts, and policy documents for legal and regulatory compliance
+- Identify applicable regulations (e.g., GDPR, HIPAA, CCPA) and communicate requirements to the team
+- Advise on data handling, privacy, and intellectual property considerations
+- Review and approve external-facing policies and terms of service
+- Flag and escalate legal risks in the project risk register
+- Coordinate with external legal counsel when specialist advice is required
+
+### Goals
+- Prevent legal or regulatory violations before they occur
+- Ensure the organization can demonstrate compliance with applicable standards
+- Reduce legal risk exposure through proactive guidance rather than reactive remediation
+
+### Typical Communication
+- Compliance review sessions at project initiation and before major releases
+- Written guidance notes on specific regulatory requirements
+- Risk register entries for legal or compliance-specific risks
+
+### Interactions with Existing Roles
+- **Product Managers**: Review proposed features for data privacy and regulatory compliance implications
+- **Project Managers**: Identify compliance-driven milestones or blockers in the project plan
+- **Technical Writers**: Ensure user-facing documentation (privacy notices, terms of service) is accurate and compliant
+- **Security Lead**: Align on security controls required to meet regulatory standards
+- **Change Manager**: Confirm that proposed changes comply with contractual or regulatory obligations before approval
+
+---
+
+## Automation Engineer
+
+### Role Summary
+Automation Engineers design, implement, and maintain the automated pipelines and infrastructure that underpin the software delivery lifecycle. They reduce manual effort and human error by building reliable CI/CD workflows, automated testing infrastructure, and deployment tooling.
+
+### Responsibilities
+- Design, build, and maintain CI/CD pipelines for build, test, and deployment automation
+- Automate repetitive operational tasks (e.g., environment provisioning, configuration management)
+- Integrate automated security scanning, code quality, and compliance checks into pipelines
+- Monitor pipeline health and resolve failures that block delivery
+- Document automation tooling and provide guidance to Developers on pipeline usage
+- Evaluate and adopt new automation tools and frameworks that improve delivery efficiency
+
+### Goals
+- Maximize delivery speed and reliability through automation
+- Eliminate manual, error-prone steps in the build, test, and release process
+- Provide Developers and Project Managers with fast, accurate feedback on code quality and delivery readiness
+
+### Typical Communication
+- Pipeline status reports and failure alerts surfaced to relevant team members
+- Documentation on CI/CD tooling and automation standards
+- Cross-functional discussions on integrating new checks (security scans, accessibility tests) into pipelines
+
+### Interactions with Existing Roles
+- **Developers**: Provide CI/CD infrastructure and guidance on automation best practices
+- **Project Managers**: Surface delivery pipeline metrics and status to support project tracking and reporting
+- **Security Lead**: Integrate security scanning tools into pipelines to enforce security requirements automatically
+- **Change Manager**: Align automation deployment steps with change control requirements
+- **Data Analyst**: Provide build and deployment metrics to support delivery performance analysis
+
+---
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.

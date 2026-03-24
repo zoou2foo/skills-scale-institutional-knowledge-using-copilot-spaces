@@ -13,7 +13,7 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 2. Assign persona representatives based on project scope (see [Roles and Personas](octoacme-roles-and-personas.md) and the [Cross-Functional Collaboration Checklist](octoacme-cross-functional-collaboration-checklist.md))
 3. Create prioritized backlog with acceptance criteria
 4. Estimate scope (T-shirt sizing or story points)
-5. Define Definition of Done (DoD)
+5. Define Definition of Done (DoD) — use the [Definition of Done Template](octoacme-definition-of-done-template.md)
 6. Identify dependencies and integration points
 7. Create release plan and milestone map
 
@@ -32,7 +32,7 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - Ensure team capacity is respected
 
 ## Risk & Dependency Management
-- Capture in Risk Register:
+- Capture in [Risk Register](octoacme-risk-register-template.md):
   - ID, Description, Impact, Probability, Owner, Mitigation
 - Mark cross-team dependencies in the project board and escalate during weekly syncs
 
@@ -42,5 +42,5 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Cross-functional collaboration needs reviewed using the [Cross-Functional Collaboration Checklist](octoacme-cross-functional-collaboration-checklist.md)
 - [ ] Backlog prioritized and estimated
 - [ ] Release timeline and milestones agreed
-- [ ] Definition of Done documented
+- [ ] Definition of Done documented using the [Definition of Done Template](octoacme-definition-of-done-template.md)
 - [ ] Initial test plan / QA approach drafted
