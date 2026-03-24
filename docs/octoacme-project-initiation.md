@@ -14,7 +14,7 @@ Whenever a new project idea or feature proposal is ready to be explored.
 
 ## Minimum Deliverables
 - Project One-pager (Problem, Goal, Success Metrics)
-- Stakeholder list & communication plan
+- Stakeholder list & [communication plan](octoacme-stakeholder-communication-plan-template.md)
 - High-level timeline and key milestones
 - Initial risk list
 - Resource needs (team roles, rough effort estimate)
@@ -38,6 +38,10 @@ Not every project requires every persona. Use the prompts below during initiatio
 | **Technical Writer** | The project introduces new APIs, workflows, or user-facing features requiring documentation |
 | **Customer Support Liaison** | Customer impact is significant or known support issues are driving the work |
 | **Data Analyst** | The project requires defined success metrics, instrumentation, or outcome measurement |
+| **Security Lead** | The project involves authentication, authorization, sensitive data, or security-relevant functionality |
+| **Change Manager** | The project changes processes, systems, or functionality that affect external users or dependent teams |
+| **Legal/Compliance Advisor** | The project involves personal data, regulated industries, third-party contracts, or new external-facing policies |
+| **Automation Engineer** | The project introduces new services, infrastructure changes, or new deployment targets |
 
 Add identified personas to the **Proposed team / roles** field in the Project One-pager and ensure they are included in stakeholder alignment activities.
 
